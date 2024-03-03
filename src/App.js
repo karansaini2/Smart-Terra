@@ -17,7 +17,7 @@ function App() {
 
         <div className="mx-5 my-12  text-center font-semibold">
           <h1 className="text-5xl ">Welcome to Smart Terra </h1>
-          <h2 className="text-3xl">Revolutioning Agriculture</h2>
+          <h2 className="text-3xl my-5">Revolutioning Agriculture</h2>
         </div>
       </div>
 
