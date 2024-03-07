@@ -13,6 +13,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/crop/:id" element={<CropDetails/>}/>
         <Route path="/form" element={<Form />} />
+  
+
       </Routes>
       </div>
     </>

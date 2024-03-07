@@ -13,10 +13,10 @@ function CropDetails() {
   });
 
   return (
-    <section className="flex flex-col justify-center items-center h-[120vh] font-serif bg-gray-100">
+    <section className="flex flex-col justify-center items-center font-serif bg-gray-100">
       <div className="max-w-4xl w-full px-4">
         <div className="text-center mb-8">
-          <h2 className="text-3xl font-bold text-gray-800">{crop.name}</h2>
+          <h2 className="text-3xl font-bold text-gray-800 my-5">{crop.name}</h2>
         </div>
 
         <div className="bg-white rounded-lg shadow-md p-6 mb-8">
