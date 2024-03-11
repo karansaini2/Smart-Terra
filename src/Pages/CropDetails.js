@@ -2,6 +2,7 @@ import React from "react";
 import { cropData } from "../data";
 import { useParams } from "react-router-dom";
 import { useEffect } from "react";
+import Navbar from "../Components/Navbar";
 function CropDetails() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -13,7 +14,10 @@ function CropDetails() {
   });
 
   return (
+    <>
+    <Navbar/>
     <section className="flex flex-col justify-center items-center font-serif bg-gray-100">
+      
       <div className="max-w-4xl w-full px-4">
         <div className="text-center mb-8">
           <h2 className="text-3xl font-bold text-gray-800 my-5">{crop.name}</h2>
@@ -101,6 +105,7 @@ function CropDetails() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 

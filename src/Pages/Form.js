@@ -1,7 +1,10 @@
 import React from 'react'
+import Navbar from '../Components/Navbar'
 
 function Form() {
   return (
+    <>
+    <Navbar/>
 <div className="flex justify-center my-5 ">
   <div className="max-w-lg mx-auto bg-gray-200 rounded-lg shadow p-8 ">
     <h2 className="text-2xl font-semibold mb-4 text-center">Crop Information</h2>
@@ -50,7 +53,7 @@ function Form() {
   </div>
 </div>
 
-
+</>
 
 
   

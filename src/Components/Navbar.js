@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { useState } from "react";
+import VoiceRecognition from "./Voice";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -57,9 +58,16 @@ function Navbar() {
           <li>
             <Link to="/form" className="hover:text-gray-300">Form</Link>
           </li>
+          <li>
+            <Link to="/weather" className="hover:text-gray-300">Weather</Link>
+          </li>
         </ul>
+        
+         
+      
       </div>
-    </nav>
+      <VoiceRecognition/>
+        </nav>
 
     </>
   );
