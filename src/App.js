@@ -5,6 +5,8 @@ import Form from "./Pages/Form";
 import CropDetails from "./Pages/CropDetails";
 import MainComponent from "./Components/Voice";
 import Weather from "./Pages/Weather";
+import Contact from "./Pages/Contact";
+import Feed from "./Pages/Feed";
 
 function App() {
   return (
@@ -17,8 +19,8 @@ function App() {
         <Route path="/form" element={<Form />} />
         <Route path="/voice" element={<MainComponent/>}/>
         <Route path="/weather" element={<Weather/>}/>
-
-        
+        <Route path="/contact" element={<Contact/>}/>
+        <Route path="/feed" element={<Feed/>}/>
 
       </Routes>
       </div>

@@ -38,20 +38,29 @@ const VoiceRecognition = () => {
     else if (command.includes('open weather')) {
       navigate('/weather');
     } 
+    else if (command.includes('open contact')) {
+      navigate('/contact');
+    } 
+    else if (command.includes('open schemes')) {
+      navigate('/feed');
+    } 
   };
 
   return (
-    <div className="fixed bottom-0 inset-x-0 bg-white p-4 z-50">
-      {/* Icon button for voice recognition */}
-      <button
-        onClick={handleStartListening}
-        disabled={isListening}
-        className={`flex items-center justify-center w-12 h-12 bg-blue-500 text-white rounded-full shadow-md focus:outline-none ${isListening ? 'ring-4 ring-blue-300' : ''}`}
-      >
-        {isListening ? <FaStop /> : <FaMicrophone />} 
-      </button>
-      <p className='text-black'>{transcript}</p>
-    </div>
+    <div className="fixed bottom-0 inset-x-0  p-4 z-50">
+  {/* Icon button for voice recognition */}
+  <div style={{ display: 'inline-block' }}>
+    <button
+      onClick={handleStartListening}
+      disabled={isListening}
+      className={`flex items-center justify-center w-12 h-12 bg-blue-500 text-white rounded-full shadow-md focus:outline-none ${isListening ? 'ring-4 ring-blue-300' : ''}`}
+    >
+      {isListening ? <FaStop /> : <FaMicrophone />} 
+    </button>
+  </div>
+  <p className='text-black inline-block'>{transcript}</p>
+</div>
+
   );
 };
 

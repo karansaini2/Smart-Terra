@@ -258,5 +258,80 @@ export const cropData = [
       "Banana plants thrive in tropical subtropical climates with temperatures ranging from 15°C to 35°C and require soil moisture levels between 60% and 90%. They have a high requirement for nitrogen, medium requirement for phosphorus, and high requirement for potassium. Bananas are one of the most popular fruits globally, valued for their sweet taste, convenience, and nutritional content. They are consumed fresh, cooked, or processed into various products such as banana chips, smoothies, and desserts. Banana cultivation is economically significant in many tropical regions, providing a source of income for millions of farmers and contributing to global food security.",
   },
 
+];
 
+
+export const schemesData = [
+
+  {
+    "id": 1,
+    "SchemeName": "Pradhan Mantri Kisan Samman Nidhi Yojana",
+    "Objective": "To provide direct income support to small and marginal farmers.",
+    "Eligibility": "All landholding farmers with cultivable land are eligible.",
+    "Benefit": "₹6,000 per year in three equal installments."
+  },
+  {
+    "id": 2,
+    "SchemeName": "Pradhan Mantri Fasal Bima Yojana",
+    "Objective": "To provide crop insurance coverage against yield losses.",
+    "Eligibility": "All farmers who have taken crop loans or own land are eligible.",
+    "Benefit": "Premium subsidy for crop insurance."
+  },
+  {
+    "id": 3,
+    "SchemeName": "Pradhan Mantri Krishi Sinchayee Yojana",
+    "Objective": "To enhance water use efficiency in agriculture.",
+    "Eligibility": "All farmers.",
+    "Benefit": "Financial assistance for irrigation projects."
+  },
+  {
+    "id": 4,
+    "SchemeName": "Kisan Credit Card Scheme",
+    "Objective": "To provide short-term credit to farmers.",
+    "Eligibility": "All farmers.",
+    "Benefit": "Credit facility for crop production and other agricultural needs."
+  },
+  {
+    "id": 5,
+    "SchemeName": "Soil Health Card Scheme",
+    "Objective": "To assess soil health and provide recommendations for balanced fertilization.",
+    "Eligibility": "All farmers.",
+    "Benefit": "Soil health cards with nutrient recommendations."
+  },
+  {
+    "id": 6,
+    "SchemeName": "Agriculture Infrastructure Fund Scheme",
+    "Objective": "To develop post-harvest infrastructure and create marketing facilities.",
+    "Eligibility": "Farmers, FPOs, agri-entrepreneurs, etc.",
+    "Benefit": "Financial assistance for infrastructure development."
+  },
+  {
+    "id": 7,
+    "SchemeName": "Rashtriya Krishi Vikas Yojana",
+    "Objective": "To promote holistic development of agriculture.",
+    "Eligibility": "State governments and farmers.",
+    "Benefit": "Funding for various agricultural projects."
+  },
+  {
+    "id": 8,
+    "SchemeName": "Paramparagat Krishi Vikas Yojana",
+    "Objective": "To promote organic farming.",
+    "Eligibility": "Farmers practicing organic farming.",
+    "Benefit": "Financial support for organic inputs and certification."
+  },
+  {
+    "id": 9,
+    "SchemeName": "National Horticulture Mission",
+    "Objective": "To promote horticulture and improve productivity.",
+    "Eligibility": "Horticulture farmers.",
+    "Benefit": "Support for horticultural practices and infrastructure."
+  },
+  {
+    "id": 10,
+    "SchemeName": "National Mission for Sustainable Agriculture",
+    "Objective": "To promote climate-resilient agriculture.",
+    "Eligibility": "All farmers.",
+    "Benefit": "Financial support for sustainable practices."
+  },
+ 
 ];
